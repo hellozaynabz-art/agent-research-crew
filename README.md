@@ -36,7 +36,7 @@ flowchart TD
 
 ```bash
 make setup                 # install dependencies (requires uv)
-cp .env.example .env       # then add your ANTHROPIC_API_KEY
+cp .env.example .env       # add ANTHROPIC_API_KEY (a .env in any parent folder also works)
 make brief T="The market for AI coding assistants in 2026"
 make test                  # offline tests
 ```

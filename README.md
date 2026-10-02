@@ -6,6 +6,8 @@ Give it a topic, like *"the market for AI coding assistants in 2026"*, and a tea
 agents plans the research, searches the web in parallel, reconciles what they find, writes an executive
 brief with numbered citations, and has it fact-checked before you see it.
 
+> **Live mode needs an Anthropic API key** (`ANTHROPIC_API_KEY`). Everything else (tests, CI) runs without one.
+
 ## The team
 
 ```mermaid
